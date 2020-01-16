@@ -8,3 +8,6 @@ class ProjectsView(View):
 
     def post(self, request):
         return HttpResponse("post请求")
+
+    def put(self, request):
+        return HttpResponse("put请求")
